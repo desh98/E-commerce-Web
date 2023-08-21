@@ -913,3 +913,60 @@ a:focus {
   color: #9c9b9b;
 }
 /*# sourceMappingURL=style.css.map */
+/* login page */
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/hero-bg.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #f0d3bd;
+  border-radius: 3px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff742a;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #ff5900;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+      width: 90%;
+  }
+}
+
+/* end login page */
