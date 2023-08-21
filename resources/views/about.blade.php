@@ -4,7 +4,7 @@
 
 <!-- about section -->
 
-<section class="about_section layout_padding2-top layout_padding-bottom">
+<section class="about_section layout_padding2-top layout_padding-bottom" style="background-color:beige;">
     <div class="design-box">
       <img src="images/design-2.png" alt="">
     </div>

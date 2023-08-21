@@ -19,7 +19,7 @@ Route::get('/product', function () {
 
 // Contact us page
 Route::get('/contact-us', function () {
-    return view('contact_us'); 
+    return view('contact'); 
 });
 
 // Login page

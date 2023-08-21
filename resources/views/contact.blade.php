@@ -3,9 +3,9 @@
 @section('content')
 
 
-<!-- contact section -->
+  <!-- contact section -->
 
-<section class="contact_section layout_padding">
+    <section class="contact_section layout_padding" style="background-color:beige;">
     <div class="design-box">
       <img src="{{ asset('images/design-2.png') }}" alt="">
     </div>
@@ -53,5 +53,6 @@
 
   <!-- end contact section -->
 
+  
 
-@endsection
+  @endsection
